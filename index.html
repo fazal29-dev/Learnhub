@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub by Fazal Shaikh</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2><i class="fas fa-graduation-cap"></i> LearnHub</h2>
+                    <span>by Fazal Shaikh</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#courses" class="nav-link">Courses</a>
+                    <a href="#instructors" class="nav-link">Instructors</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-actions">
+                    <button class="btn login-btn">Log In</button>
+                    <button class="btn signup-btn">Sign Up</button>
+                </div>
+                <div class="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Transform Your Future with <span class="highlight">LearnHub</span></h1>
+                    <p>Join thousands of students learning with our expert instructors. Access 500+ courses anytime, anywhere.</p>
+                    <div class="hero-buttons">
+                        <a href="#courses" class="btn primary-btn">Explore Courses</a>
+                        <a href="#signup" class="btn secondary-btn">Start Learning</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="stats-container">
+                <div class="stat-item">
+                    <h3>500+</h3>
+                    <p>Courses Available</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50K+</h3>
+                    <p>Students Enrolled</p>
+                </div>
+                <div class="stat-item">
+                    <h3>200+</h3>
+                    <p>Expert Instructors</p>
+                </div>
+                <div class="stat-item">
+                    <h3>98%</h3>
+                    <p>Satisfaction Rate</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="courses">
+            <div class="container">
+                <h2 class="section-title">Popular Courses</h2>
+                <div class="courses-filters">
+                    <button class="filter-btn active">All</button>
+                    <button class="filter-btn">Web Development</button>
+                    <button class="filter-btn">Data Science</button>
+                    <button class="filter-btn">Design</button>
+                    <button class="filter-btn">Business</button>
+                </div>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-badge">Most Popular</div>
+                        <div class="course-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="course-info">
+                            <div class="course-category">Development</div>
+                            <h3>Full Stack Web Development</h3>
+                            <p>Learn to build modern web applications with React, Node.js, and more.</p>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 12 Weeks</span>
+                                <span><i class="fas fa-user-graduate"></i> 4.9 (1200)</span>
+                            </div>
+                            <div class="course-price">$199</div>
+                        </div>
+                        <div class="course-actions">
+                            <button class="btn primary-btn small">Enroll Now</button>
+                            <button class="btn outline-btn small">Preview</button>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="course-info">
+                            <div class="course-category">Data Science</div>
+                            <h3>Python for Data Science</h3>
+                            <p>Master Python libraries for data analysis, visualization, and machine learning.</p>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 8 Weeks</span>
+                                <span><i class="fas fa-user-graduate"></i> 4.8 (950)</span>
+                            </div>
+                            <div class="course-price">$149</div>
+                        </div>
+                        <div class="course-actions">
+                            <button class="btn primary-btn small">Enroll Now</button>
+                            <button class="btn outline-btn small">Preview</button>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div class="image-placeholder">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                        </div>
+                        <div class="course-info">
+                            <div class="course-category">Design</div>
+                            <h3>UI/UX Design Masterclass</h3>
+                            <p>Create stunning user interfaces and experiences with industry best practices.</p>
+                            <div class="course-meta">
+                                <span><i class="far fa-clock"></i> 10 Weeks</span>
+                                <span><i class="fas fa-user-graduate"></i> 4.7 (800)</span>
+                            </div>
+                            <div class="course-price">$179</div>
+                        </div>
+                        <div class="course-actions">
+                            <button class="btn primary-btn small">Enroll Now</button>
+                            <button class="btn outline-btn small">Preview</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Why LearnHub?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <h3>Video Lectures</h3>
+                        <p>High-quality video content from industry experts</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Hands-on Projects</h3>
+                        <p>Practical exercises to reinforce learning</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Certificates</h3>
+                        <p>Industry-recognized certificates upon completion</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile Access</h3>
+                        <p>Learn anytime, anywhere on any device</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">Student Success Stories</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"LearnHub transformed my career. I went from zero coding knowledge to landing a developer job in 6 months!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <p>Web Developer at TechCorp</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"The instructors are incredibly knowledgeable and supportive. The practical projects helped me build a strong portfolio."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <p>Data Scientist at Analytics Pro</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"I've taken courses on many platforms, but LearnHub's structured curriculum and hands-on approach are unmatched."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Emma Rodriguez</h4>
+                                <p>UI Designer at Creative Studio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Start Your Learning Journey?</h2>
+                    <p>Join thousands of students who have transformed their careers with LearnHub</p>
+                    <a href="#signup" class="btn primary-btn large">Get Started Today</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h3>LearnHub</h3>
+                        <p>Empowering learners worldwide with quality education and practical skills.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Courses</h4>
+                        <ul>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Data Science</a></li>
+                            <li><a href="#">Design</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Marketing</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2023 LearnHub by Fazal Shaikh. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
